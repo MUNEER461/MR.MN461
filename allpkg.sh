@@ -118,7 +118,11 @@ echo -e
 
 echo -e
 
-
+pkg update -y
+apt update -y
+pkg install root-repo
+pkg install root-repo
+pkg install x11-repo
 pkg install metasploit
 exit
 clear
