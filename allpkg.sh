@@ -15,7 +15,7 @@ echo -e "
                                  
                                  "
 
-printf "  ⚠️ warning ⚠️  "
+echo            "  ⚠️ warning ⚠️  "
 echo -e
 
 
@@ -33,16 +33,16 @@ echo -e "==========={👇 ♕ If you want follow means click Link bleow ♕👇}
 echo -e 
 
 
-echo -e " ➜  facebookcebook https://www.facebook.com/muneer.uddin.104"
+echo -e " ➜  Facebook  : https://www.facebook.com/muneer.uddin.104"
 
 
 echo -e " ➜  Instagram : https://www.instagram.com/muneer_lovely/"
 
 
-echo -e  " ➜  outube : https://www.youtube.com/channel/UC_CkXiuB3XA-az09Mmi8Wsg"
+echo -e  " ➜  Youtube.  : https://www.youtube.com/channel/UC_CkXiuB3XA-az09Mmi8Wsg"
 
 
-echo -e   " ➜  Github : https://github.com/MUNEER461/"
+echo -e   " ➜  Github  : https://github.com/MUNEER461/"
 echo -e
 
 echo -e " =================={🙏Thank you for using our script 🙏}==================="
