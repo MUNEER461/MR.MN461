@@ -42,7 +42,7 @@ echo -e " ➜  Instagram : https://www.instagram.com/muneer_lovely/"
 echo -e  " ➜  Youtube.  : https://www.youtube.com/channel/UC_CkXiuB3XA-az09Mmi8Wsg"
 
 
-echo -e   " ➜  Github  : https://github.com/MUNEER461/"
+echo -e   " ➜  Github   : https://github.com/MUNEER461/"
 echo -e
 
 echo -e " =================={🙏Thank you for using our script 🙏}==================="
