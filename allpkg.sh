@@ -66,29 +66,27 @@ echo
 echo "➣lets start             "
 echo
 
-apt update
-apt upgrade
-pkg update
-pkg upgrade
-pkg install git
+apt-get update -y
+apt-get upgrade -y
+apt-get install git
 apt install proot
-pkg install nano
-apt install apache2@
-pkg install bash
-pkg install python
-pkg install python2
-pkg install openssh
-pkg install php
-pkg install ruby
-pkg install wget
-pkg install nmap
-pkg install sql
-pkg install nginx
-apt install zip
-apt install unzip
-pkg install hydra
-pkg install nmap
-pkg install python3
+apt-get install nano
+apt-get install apache2
+apt-get install bash
+apt-get install python
+apt-get install python2
+apt-get install openssh
+apt-get install php
+apt-get install ruby
+apt-get install wget
+apt-get install nmap
+apt-get install sql
+apt-get install nginx
+apt-get install zip
+apt-get install unzip
+apt-get install hydra
+apt-get install nmap
+apt-get install python3
 pip install wafw00f
 pkg install curl
 pkg install ncurses-utils
@@ -99,11 +97,11 @@ pip install requests
 pip install netaddr
 pip install argparse
 pkg install root-repo
-pkg install unstable-repo
-pkg install x11-repo
-pkg install aircrack-ng
-pkg install while
-pkg install ruby clang
+apt-get install unstable-repo
+apt-get x11-repo
+apt-get aircrack-ng
+apt-get install while
+apt-get install ruby clang
 pip install mechanize requests bs4
 exit 
 read ch
