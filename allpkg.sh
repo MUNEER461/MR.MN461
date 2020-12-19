@@ -72,7 +72,7 @@ echo " ➣It will take some Time "
 echo -e
 echo " ➣Please Dont anything "
 echo -e
-echo "lets star our program"
+echo " ➢lets star our program"
 
 apt-get update -y
 apt-get upgrade -y
