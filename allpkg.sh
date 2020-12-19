@@ -1,7 +1,10 @@
 #!/bin/bash
-clear
-
-
+echo "What is your name :"
+read name
+echo "How are you $name :"
+read remark 
+echo "i am also $remark Fine"
+echo -e
 echo -e "
        ______   __       __  ________
       /      \ /  \     /  |/        |
@@ -39,33 +42,37 @@ echo -e " ➜  Facebook  : https://www.facebook.com/muneer.uddin.104"
 echo -e " ➜  Instagram : https://www.instagram.com/muneer_lovely/"
 
 
-echo -e  " ➜  Youtube.  : https://www.youtube.com/channel/UC_CkXiuB3XA-az09Mmi8Wsg"
+echo -e  " ➜  Youtube   : https://www.youtube.com/channel/UC_CkXiuB3XA-az09Mmi8Wsg"
 
 
-echo -e   " ➜  Github   : https://github.com/MUNEER461/"
+echo -e   " ➜  Github    : https://github.com/MUNEER461/"
 echo -e
 
 echo -e " =================={🙏Thank you for using our script 🙏}==================="
 echo -e
 echo -e
-echo "  ↣ 😁It Only For Termux Useres😁 ↢
+echo "  ↣ 😁It Only For Termux Useres😁 "
+
+echo -e
 echo " ➜ press 1 : To install small  packages ❨ 0.9 GB Storage  ❩"
-echo
+echo -e
 echo " ➜ press 2 : To install  metasploit package ❨ 1.5GB Storage  ❩ "
 echo 
-echo " ➜ press 3 : To exit  "
-echo
+echo " ➜ press 3 : To update "
+
+echo 
+echo " ➜ Press 4 : To exit "
+
+echo -e
+
 read ch
 if [ $ch -eq 1 ];then
-
 clear
-
-echo "➣It will take some Time "
-echo
-echo "➣Please Dont do anything"
-echo
-echo "➣lets start             "
-echo
+echo " ➣It will take some Time "
+echo -e
+echo " ➣Please Dont anything "
+echo -e
+echo "lets star our program"
 
 apt-get update -y
 apt-get upgrade -y
@@ -77,13 +84,13 @@ pkg install bash
 pkg install python
 pkg install python2
 pkg install openssh
-apt-get install php
+pkg install php
 pkg install ruby
 pkg install wget
 pkg install nmap
-apt-get install sql
+pkg install sql
 pkg install nginx
-apt-get install zip
+pkg install zip
 pkg install unzip
 pkg install hydra
 pkg install nmap
@@ -105,18 +112,16 @@ pkg install while
 pkg install ruby clang
 pip install mechanize requests bs4
 exit 
+
 read ch
 elif [ $ch -eq 2 ];then
+clear
 echo ➣ use speed internet connection other wise  it will Download very slow 
 echo -e
-
 echo -e
-
 echo ➣ This installation process  It will up 1 Hour depend on your internet connection speed
 echo -e
-
 echo -e
-
 pkg update -y
 apt update -y
 pkg install root-repo
@@ -126,10 +131,22 @@ pkg install metasploit
 exit
 clear
 
-read ch 
+read ch
 elif [ $ch -eq 3 ];then
 clear
+echo "Please wait...."
+pkg update -y
+apt update -y
+pkg install git
+git clone https://github.com/MUNEER461/MR.MN461
+cd MR.MN461
+chmod +x *
+
 exit
+
+read ch 
+elif [ $ch -eq 4 ];then
 clear
+exit
 fi
 done
